@@ -40,7 +40,7 @@ countries = [251,40,119,55,109,81,77,29]
 # creating the required dataframes for plotting
 population_c,population_y =dataFrame("API_19_DS2_en_csv_v2_5240184.csv",years,countries,"Indicator Name","Population, total")
 co2_c,co2_y = dataFrame("API_19_DS2_en_csv_v2_5240184.csv",years,countries,"Indicator Name","CO2 emissions (kt)")
-gdp_c,gdp_y = dataFrame("API_NY.GDP.MKTP.CD_DS2_en_csv_v2_5358352.csv",years,countries,"Indicator Name","GDP (current US$)")
+gdp_c,gdp_y = dataFrame("API_19_DS2_en_csv_v2_5240184.csv",years,countries,"Indicator Name","GDP (current US$)")
 re_c,re_y = dataFrame("API_19_DS2_en_csv_v2_5240184.csv",years,countries,"Indicator Name","Electricity production from renewable sources, excluding hydroelectric (kWh)")
 fa_c,fa_y = dataFrame("API_19_DS2_en_csv_v2_5240184.csv",years,countries,"Indicator Name","Forest area (sq. km)")
 ec_c,ec_y = dataFrame("API_19_DS2_en_csv_v2_5240184.csv",years,countries,"Indicator Name","Electricity production from coal sources (% of total)")
